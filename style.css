@@ -1,0 +1,394 @@
+*{  margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.nav{
+    width:100%;
+    height:150px;
+    padding:5px;
+    background-image:url('https://pharmaceutical-journal.com/wp-content/uploads/2021/01/herbal-medicines-ss-18-scaled.jpg');
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position:sticky;
+}
+.logo{
+   padding:10px;
+}
+.name{
+    color:wheat;
+    font-weight:bold;
+}
+.nav-bar {
+   margin:0;
+   padding:5px;
+   list-style: none ;
+   display:flex;
+}
+.nav-bar a{
+    text-decoration: none;
+    margin: 0 30px;
+    font-size: 30px;
+    font-style: gerrit;
+    color:white;
+}
+li{
+    
+}
+.logo-img{
+  padding-left: 30px;
+ width: 200px;;
+ height:100px;
+}
+
+
+.heading{
+    width:100%;
+    height:100px;
+    text-align:center;
+    padding:15px;
+    background: rgb(238,174,202);
+background: linear-gradient(90deg, rgb(228, 103, 157) 30%, rgb(220, 217, 57) 75%);
+color:rgb(238, 41, 41);
+word-spacing: 5px;
+font-size:50px;
+font-style: inter,sans-serif;
+BORDER-TOP:5PX SOLID WHITE;
+border-bottom:5PX SOLID WHITE;
+}
+.img-1{
+    BORDER:5PX 5PX 5PX 5px;
+    height:800px;
+    width:1000px;
+    padding-left: 10px;
+}
+.m-1{
+    position:relative;
+    height:70vh;
+    overflow:hidden;
+}
+.m-1-1{
+ position:absolute;
+ top:0;
+ right:10px;
+ left:1000px;
+ bottom:0;
+ max-width:650px;
+ background: rgb(149,233,167);
+background: radial-gradient(circle, rgba(149,233,167,1) 35%, rgba(244,247,245,1) 86%);
+ padding: 20px 40px 5px 40px;
+ display:flex;
+ flex-direction:column;
+ justify-content:center;
+}
+.img-2{
+    width:400px;
+    height:120px;
+}
+.m-2{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    width:100%;
+    height:400px;
+}
+.dem-img-1{
+    width: 300px;
+    height:150px;
+    margin-bottom: 0;
+    margin-right: 80px;
+    margin-left: 80px;
+    
+}
+
+.dem-img-2{
+    width: 300px;
+    height:150px;
+    margin-right: 80px;
+    margin-left: 80px;
+    
+}
+
+.dem-img-3{
+    width: 300px;
+    height:150px;
+    margin-right: 80px;
+    margin-left: 80px;
+    
+}
+.m-2-1{
+  width:498px;
+  height:400px;
+  padding: 20px;
+}
+.m-2-1:hover{
+    background-color:rgb(245, 245, 99)
+}
+.m-2-2{
+    width:498px;
+    height:400px;
+    padding: 20px;
+}
+.m-2-2:hover{
+    background-color:rgb(218, 122, 222)
+}
+.m-2-3{
+    width:498px;
+    height:400px;
+    padding: 20px;
+}
+.m-2-3:hover{
+    background-color:rgb(216, 165, 77)
+}
+.m-h-1{
+    text-align: center;
+    color:green;
+}
+
+.m-p-1{
+    padding:15px;
+
+}
+.main-2{
+
+}
+
+.galary-session{
+    width:100%;
+    height:800px;
+    margin-top:20px;
+
+}
+.heading-3{
+text-align: center;
+padding: 20px;
+background: rgb(50, 118, 202);
+background: radial-gradient(circle, rgb(137, 158, 231) 35%, rgb(48, 54, 212) 86%);
+margin-bottom:20px;
+margin-left:40px;
+margin-right:40px;
+
+
+}
+.galary-list{
+    margin: 50px;
+    padding: 20px;
+    box-sizing:none;
+    display:flex;
+    flex-wrap: wrap;
+    gap:40px;
+}
+.g-img{
+    width:300px;
+    height:300px;
+    flex:1 1 300px;
+}
+
+.aboutus{
+    width:100%;
+    height: 1890px;
+    margin-top: 20px;
+}
+
+.aboutus-heading{
+    text-align: center;
+    padding: 20px;
+    background: rgb(213, 230, 65);
+    background: radial-gradient(circle, rgb(191, 226, 194) 35%, rgb(15, 185, 49) 86%);
+    margin-bottom:20px;
+    margin-left:40px;
+    margin-right:40px;
+}
+.aboutus-img-1{
+ width:700px;
+ height:450px;
+ padding: 20px;
+ padding-left:90px;
+
+
+}
+.aboutus-img-2{
+    position: absolute;
+    top:0;
+    bottom:0;
+    right:40px;
+    left:800px;
+    max-width:800px;
+    max-height:450px;
+    padding:20px;
+    width:700px;
+    height:450px;
+    padding: 20px;
+    padding-right: 90px;
+   
+
+    
+}
+.aboutus-img-3{
+    width:700px;
+    height:450px;
+    padding:20px;
+    padding-left:90px;   
+}
+
+.aboutus-1{
+ position:relative;
+ height:70vh;
+ overflow:hidden;
+ 
+ background: rgb(167, 235, 163);
+ background: radial-gradient(circle, rgb(232, 240, 150) 35%, rgb(228, 134, 228) 86%);
+ padding:30px;
+ margin-left:40px;
+    margin-right:40px;
+}
+.aboutus-1-1{
+    position:absolute;
+    top:0;
+    bottom:0;
+    right:40px;
+    left:800px;
+    max-width:800px;
+    max-height:450px;
+    padding:20px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+}
+.aboutus-1-1-1{
+    text-align:center;
+    color:rgb(227, 40, 118);
+    padding:10px;
+    font-size: 30px;
+}
+.aboutus-1-1-2{
+  padding:30px;
+  font-style:gerrit;
+}
+
+.aboutus-2{
+    position:relative;
+    height:70vh;
+    overflow:hidden;
+    padding:30px;
+    background: rgb(167, 235, 163);
+ background: radial-gradient(circle, rgb(58, 188, 192) 35%, rgb(105, 105, 238) 86%);
+ padding:30px;
+ margin-left:40px;
+    margin-right:40px;
+    margin-top:40px;
+    margin-bottom:40px;
+   }
+   .aboutus-2-1{
+       position:absolute;
+       top:0;
+       bottom:0;
+       right:800px;
+       left:40px;
+       max-width:800px;
+       max-height:450px;
+       padding:20px;
+       display:flex;
+       flex-direction:column;
+       justify-content:center;
+       
+   }
+   .aboutus-2-1-1{
+       text-align:center;
+       color:rgb(94, 69, 222);
+       padding:10px;
+       font-size: 30px;
+   }
+   .aboutus-2-1-2{
+     padding:30px;
+     font-style:gerrit;
+   }
+
+   .aboutus-3{
+    position:relative;
+    height:70vh;
+    overflow:hidden;
+    padding:30px;
+    background: rgb(167, 235, 163);
+    background: radial-gradient(circle, rgb(233, 171, 160) 35%, rgb(229, 107, 133) 86%);
+    padding:30px;
+    margin-left:40px;
+       margin-right:40px;
+       margin-top:40px;
+   }
+   .aboutus-3-1{
+       position:absolute;
+       top:0;
+       bottom:0;
+       right:40px;
+       left:800px;
+       max-width:800px;
+       max-height:450px;
+       padding:20px;
+       display:flex;
+       flex-direction:column;
+       justify-content:center;
+   }
+   .aboutus-3-1-1{
+       text-align:center;
+       color:rgb(229, 70, 125);
+       padding:10px;
+       font-size: 30px;
+   }
+   .aboutus-3-1-2{
+     padding:30px;
+     font-style:gerrit;
+   }
+.footer{
+    width:100%;
+    height:150px;
+    background-color:brown;
+    display:flex;
+}
+.fot-1{
+    padding:20px;
+    padding-left: 30px;
+    width:40%;
+    height:150px;
+}
+.fot-2{
+    margin:0;
+    padding:0;
+    box-sizing:0;
+    width:60%;
+    height:150px;
+}
+.fot-img{
+    height:100px;
+}
+.footlist{
+    height:150px;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fot-li-1{
+list-style: none;
+}
+.fot-li-2{
+    list-style: none;
+}
+.fot-li-3{
+    list-style: none;
+}
+.fot-li-h1{
+    padding:10px;
+    color:antiquewhite;
+}
+.fot-li-h2{
+    padding:10px;
+    text-align:center;
+    color:antiquewhite;
+}
+.fot-li-h3{
+    padding:10px;
+    text-align:center;
+    color:antiquewhite;
+}
